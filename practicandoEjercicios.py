@@ -554,31 +554,49 @@
 #    print(f"Lista preparada para ir al super: {productos}")
 #else:
 #    print ("El producto no esta en la lista")
+#-------------------------------------------------------------------------------------
 
-#dia = int(input("valor1"))
-#mes = int(input("valor2"))
-#anio = int(input("valor3"))
+#Lista de edades y promedio
+#Pedí al usuario 5 edades, guardalas en una lista y mostrá el promedio. 
+#Luego, decí cuántos son mayores de edad.
 
-#if mes in [1,3,5,7,8,10,12]:
-#    dd = 31
-#elif mes in [4,6,9,11]:
-#    dd = 30
-#elif mes == 2:
-#    if (anio % 4 == 0 and anio % 100 !=0) or (anio % 400 == 0):
-#        dd = 29
-#    else:
-#        dd = 28
-#else:
-#    print ("A")
-#    dd = -1
+#Lista y pedido de edades. Actualiza lista.
+#edades = []
 
-#if dd != -1:
-#    if dia <1 or dia>dd:
-#        print ("B")
-#   elif mes <1 or mes>12:
-#        [print ("C")]
-#    else:
-#        print ("D")
+#for recorrer in range (1,6,1):
+#    ingresoEdades = int (input("Ingresa una edad: "))
+#    edades.append(ingresoEdades)
+
+#Promedio de edades
+#promedioEdades = sum(edades) / 5
+
+#Mayor edad, contador y for para ver cuanta cantidad son mayor de edad
+#mayorDeEdad = 18
+#contador = 0
+
+#for edad in edades:
+#    if edad >= mayorDeEdad:
+#        contador = contador + 1
+
+#print (f"Edades ingresadas: {edades}")
+#print (f"Promedio de edades ingresadas: {promedioEdades}")
+#print (f"Mayores de edad: {contador}")
+#-------------------------------------------------------------------------------------
+
+#Validador de DNI
+#Pedí un número de DNI y validá que tenga entre 7 y 8 cifras. Si no es válido, pedilo de nuevo hasta que lo sea.
+
+pedirDNI = (input("Ingresa tu DNI: "))
+while len(pedirDNI) != 8:
+    print ("DNI INVALIDO. Debes ingresar 8 numeros")
+    pedirDNI = (input("Ingresa tu DNI: "))
+    
+print ("DNI VALIDO")  
+
+        
+    
+
+
 
 
 
