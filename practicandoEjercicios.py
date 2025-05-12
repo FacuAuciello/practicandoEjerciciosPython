@@ -586,18 +586,45 @@
 #Validador de DNI
 #Pedí un número de DNI y validá que tenga entre 7 y 8 cifras. Si no es válido, pedilo de nuevo hasta que lo sea.
 
-pedirDNI = (input("Ingresa tu DNI: "))
-while len(pedirDNI) != 8:
-    print ("DNI INVALIDO. Debes ingresar 8 numeros")
-    pedirDNI = (input("Ingresa tu DNI: "))
+#pedirDNI = (input("Ingresa tu DNI: "))
+#while len(pedirDNI) != 8:
+#    print ("DNI INVALIDO. Debes ingresar 8 numeros")
+#    pedirDNI = (input("Ingresa tu DNI: "))
     
-print ("DNI VALIDO")  
+#print ("DNI VALIDO")  
+#-------------------------------------------------------------------------------------
 
+#Validar fecha de nacimiento
+#Pedí el día, mes de nacimiento y anio. Valida si es correcto o no
+
+#ingresoNacimiento = (input("Ingresa tu fecha de nacimiento (Todo junto sin espacios): ")) 
+
+#dia = ingresoNacimiento[0:2]
+#mes = ingresoNacimiento[2:4]
+#anio = ingresoNacimiento[4:8]
+
+#print(f"{dia}/{mes}/{anio}")
+
+#while len(ingresoNacimiento) != 8:
+#    print ("ERROR. Ingresa 8 numeros")
+#    ingresoNacimiento = (input("Ingresa tu fecha de nacimiento (Todo junto sin espacios): "))
+
+#validacion = input (f"{ingresoNacimiento} es correcto? Responde S/N: ")
+
+#if validacion.lower() == "s":
+#    print ("Fecha de nacimiento ingresada")
+#elif validacion.lower() == "n":
+
+    #while validacion.lower() != "s":
+#        ingresoNacimiento = (input("Ingresa de nuevo la fecha: "))
+#        dia = ingresoNacimiento[0:2]
+#        mes = ingresoNacimiento[2:4]
+#        anio = ingresoNacimiento[4:8]
+#        print(f"{dia}/{mes}/{anio}")
         
-    
-
-
-
-
+#        validacion = input (f"{ingresoNacimiento} es correcto? Responde S/N: ")
+#        if validacion.lower() == "s":
+#            print ("Fecha de nacimiento ingresada")
+#-------------------------------------------------------------------------------------
 
 
