@@ -627,4 +627,42 @@
 #            print ("Fecha de nacimiento ingresada")
 #-------------------------------------------------------------------------------------
 
+#Funciones
+#Simulador de pase libre. Recibe edad y si tiene documento. Si tiene más de 65 o menos de 10, y tiene documento
+
+#def paseLibre (edad, tieneDocumento):
+#    if tieneDocumento:
+#        pregunta = str(input("Tenes el documento? RESPONDE Si/No"))
+#        if pregunta.lower() == "si":
+#            tieneDocumento = True
+#            print("Documento VERIFICADO")
+#            if edad >= 65 or edad <= 10:
+#                print ("PASE LIBRE")
+#            else:
+#                print ("NO tiene edad para PASE LIBRE")
+#        else:
+#            print ("Documento NO VERIFICADO. Sin importar la edad debera abonar.")
+#        
+#edad = int(input("Ingresar edad: "))
+#tieneDocumento = True
+
+#paseLibre(edad, tieneDocumento)
+#-------------------------------------------------------------------------------------
+
+#Control de stock. Recibe dos números y devuelve el stock restante. 
+#Si el resultado es menor a 0, devuelve "Error: stock insuficiente".
+
+#def actualizarStock (stockActual, vendidos):
+#    print(stockActual - vendidos)
+#    if (stockActual - vendidos) <= 0:
+#        print ("STOCK INSUFICIENTE")
+
+#stockActual = int(input("Ingresa el numero de stock actual de productos: "))
+#vendidos = int(input("Ingresa el numero de productos vendidos: "))
+
+#actualizarStock(stockActual, vendidos)
+#-------------------------------------------------------------------------------------
+
+#Cajero automático básico
+#Si el monto es menor o igual al saldo, restar y devolver el nuevo saldo. Si no, devolver "Fondos insuficientes"
 
